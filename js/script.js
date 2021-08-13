@@ -25,7 +25,7 @@ function show() {
     const y = document.getElementById("form1");
      x.style.display="none";
      y.style.display="block";
-
+     document.getElementById("audio3").play();
     
 }
 function troll() {
@@ -62,6 +62,7 @@ function inrel() {
      y.style.display="block";
      z.style.display="none";
      document.getElementById("audio").play();
+     document.getElementById("audio3").pause();
      return false;
 
 }
