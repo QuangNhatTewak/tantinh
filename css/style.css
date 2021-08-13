@@ -59,7 +59,7 @@ html, body {
   .btn {
     transition-duration: 0.4s;
     height: 3rem;
-    width: 30rem;
+    width: 35rem;
     background-color: #23a6d5;
     border-radius: 10px ;
     display: none;
@@ -76,7 +76,7 @@ html, body {
     color: aliceblue;
     font-size: 30px;
     height: 3rem;
-    width: 30rem;
+    width: 35rem;
   }
   .btn:hover {
     background-color: #4CAF50;
