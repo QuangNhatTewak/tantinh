@@ -34,7 +34,7 @@ function troll() {
       x.style.display="none";
       y.style.display="block";
       document.getElementById("alert").innerHTML = "Cậu đừng có dối lòng nữa 😙 Hãy nói thật đi";
-      document.getElementById("alert2").innerHTML = "Cậu mà thoát Web hay Block tớ là cậu đồng ý nha 😛";
+      document.getElementById("alert2").innerHTML = "Cậu mà thoát trang Web này hay Block tớ là cậu đồng ý nha 😛";
       document.getElementById("audio2").play();
       return false;
 }
