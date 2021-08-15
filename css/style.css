@@ -3,23 +3,26 @@
 }
 h1  {
     font-family: 'Amatic SC', cursive;
-    font-size: 160px;
+    font-size: 120px;
     color: aliceblue;
 }
 .but1, .but2 {
-   width: 35rem;
-   height: 10rem;
+   width: 30rem;
+   font-size: 20px;
    
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 h2 {
     color:aliceblue;
 }
+#challen {
+    font-size: 110px;
+}
 .container {
     text-align: center;
-    padding: 40px;
+    padding: 70px;
 }
 
 html, body {
@@ -86,12 +89,12 @@ html, body {
   .formcss {
       display: none;
       text-align: center;
-      padding: 100px;
+      padding: 70px;
   }
   .final {
       display: none;
       text-align: center;
-      padding: 100px;
+      padding: 70px;
   }
   .final>h1 {
       font-size: 160px;
@@ -148,4 +151,47 @@ html, body {
 .fbtnh2:hover {
     background-color: #4CAF50;
     color: white;
+}
+.final h2 {
+    font-size: 80px;
+}
+#h2h2 {
+    font-size: 27px
+}
+#heart {
+    font-size: 100px;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        padding: 10px;
+    }
+    .but1, .but2 {
+        width: 18rem;
+        
+    }
+    h1 {
+        font-size: 85px
+    }
+    .btn {
+        width: 18rem;
+    }
+    .btn2 {
+        width: 18rem;
+    }
+    .formcss {
+        padding: 15px;
+    }
+    #challen {
+        font-size: 60px;
+    }
+    .final h1 {
+        font-size: 60px;
+    }
+    .final h2 {
+        font-size: 30px;
+    }
+    #h2h2 {
+        font-size: 25px;
+    }
 }
