@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import os, sys, plistlib, zipfile, tempfile, binascii, shutil
-from Scripts import *
 
 class CPUFF:
     def __init__(self):
