@@ -85,6 +85,6 @@ function inrel2() {
 }
 function trollalt() {
     document.getElementById("alert2").innerHTML="Sao cậu không muốn ? Cậu sẽ rất bất ngờ đấy !";
-    alert("Sao cậu không muón ? Cậu sẽ rất bất ngờ đấy !");
+    alert("Sao cậu không muốn ? Cậu sẽ rất bất ngờ đấy !");
     return false;
 }
