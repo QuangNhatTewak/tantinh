@@ -33,7 +33,7 @@ function troll() {
     const y = document.getElementById("fbut3");
       x.style.display="none";
       y.style.display="block";
-      document.getElementById("alert").innerHTML = "Cậu đừng có dối lòng nữa 😙 Hãy nói thật đi";
+      document.getElementById("alert").innerHTML = "😍";
       document.getElementById("alert2").innerHTML = "Cậu mà thoát trang Web này hay Block tớ là cậu đồng ý nha 😛";
       document.getElementById("audio2").play();
       return false;
