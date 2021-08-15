@@ -25,7 +25,7 @@ function show() {
     const y = document.getElementById("form1");
      x.style.display="none";
      y.style.display="block";
-     document.getElementById("audio3").play();
+    
     
 }
 function troll() {
@@ -55,14 +55,36 @@ function troll2() {
      return false;
 }
 function inrel() {
-    const x = document.getElementById("form1");
-    const y = document.getElementById("yess");
+    const x = document.getElementById("fbut1alt");
+    const y = document.getElementById("fbut1");
     const z = document.getElementById("click");
-     x.style.display="none";
-     y.style.display="block";
+    const c = document.getElementById("challen");
+    const v =  document.getElementById("fbut2");
+    const b = document.getElementById("fbut2alt");
+     v.style.display="inline";
+     b.style.display="none";
      z.style.display="none";
-     document.getElementById("audio").play();
-     document.getElementById("audio3").pause();
+     c.innerHTML = "";
+     c.innerHTML = "Cậu rất giống với con dâu tương lai của ba mẹ tớ =))";
+     y.style.display="none";
+     x.style.display="inline";
+     document.getElementById("audio3").play();
+     document.getElementById("alert2").innerHTML = "";
+     document.getElementById("des").innerHTML = "Nếu cậu không phiền thì làm người yêu tớ nhé 😳";
      return false;
 
+}
+function inrel2() {
+    document.getElementById("click").style.display="none";
+    document.getElementById("yess").style.display="block";
+    document.getElementById("form1").style.display="none";
+    document.getElementById("audio").play();
+    document.getElementById("audio3").pause();
+    return false;
+
+}
+function trollalt() {
+    document.getElementById("alert2").innerHTML="Sao cậu không muốn ? Cậu sẽ rất bất ngờ đấy !";
+    alert("Sao cậu không muón ? Cậu sẽ rất bất ngờ đấy !");
+    return false;
 }
