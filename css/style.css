@@ -161,6 +161,9 @@ html, body {
 #heart {
     font-size: 100px;
 }
+#h22 {
+    font-size: 40px;
+}
 
 @media screen and (max-width: 550px) {
     .container {
@@ -193,5 +196,8 @@ html, body {
     }
     #h2h2 {
         font-size: 25px;
+    }
+    #h22 {
+        font-size: 32px;
     }
 }
